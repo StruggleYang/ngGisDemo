@@ -1,0 +1,30 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css"  
+href="css/map.css" />  
+<script src="js/jquery.min.js"></script>
+<!-- 地图服务 -->
+<link rel="stylesheet" type="text/css"  href="http://js.arcgis.com/3.17/dijit/themes/tundra/tundra.css" />  
+<link rel="stylesheet" type="text/css"  href="http://js.arcgis.com/3.17/esri/css/esri.css" />  
+<script type="text/javascript" src="http://js.arcgis.com/3.17/init.js"></script>
+<script src="js/MapTools.js"></script>
+<script src="js/map.js"></script>
+</head>
+<body >
+<div id="max">
+	<!-- 右侧地图及全部  -->
+	<div id = "map_all">
+		<!--地图  -->
+		<div id = "mapView">
+			<div style=" position:absolute;z-index: 1;top:50px;right:20px;border:1px blue solid;display:none">
+            <input type="button" id="openTool"   value="开启" /> 
+            <input type="button" id="closeTool"  value="暂停" />
+            <input type="button" id="continueTool"  disabled="disabled" value="继续" />
+            <input type="button" id="returnTool" disabled="disabled" readonly value="返回" /> 
+            </div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

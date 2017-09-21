@@ -1,33 +1,18 @@
 ## NgGisDemo
 
-> 百度一番没有找到相应整合的示例，好在官方做了支持  
-> 一个由Angular和Arcgis组建的一个基础地图demo
+> Arcgis for javaScript||js示例参考代码
 
 ## 快速开始
-环境：
-- nodejs > 6.9.x 
-- npm > 3.x.x
-- Angular CLI
-
 获取源码(默认为dev分支):
 ```
 # git clone http://git.oschina.net/StruggleYang/ngGisDemo
 ```
-npm包下载
+切换分支
 ```
-# cd ngGisDemo
-
-# npm install // 如果配置了cnpm建议使用cnpm
+# git checkout js
 ```
 本地预览
-```
-# ng serve -o
-```
-通常预览在 http://localhost:4200/
 
-## 鸣谢
-- [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2. 提供项目构建
-- [angular-esri-loader](https://github.com/tomwayson/angular-esri-loader) 提供在Angular中的Arcgis for JavaScript模块加载
-- [Arcgis for JavaScript](https://developers.arcgis.com/javascript/3/)
-- [Tom Wayson](https://github.com/tomwayson)
+>建议将文件放到web服务器预览，当然，也可以直接浏览器打开index.html
+
 

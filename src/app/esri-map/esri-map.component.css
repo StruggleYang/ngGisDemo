@@ -1,7 +1,0 @@
-/*载入arcgis样式库*/
-@import url("//js.arcgis.com/3.17/dijit/themes/tundra/tundra.css");
-@import url("//js.arcgis.com/3.17/esri/css/esri.css");
-.mapView,html,body{
-    width: 100%;
-    height: 100%;
-}
