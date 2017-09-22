@@ -12,6 +12,8 @@
 获取源码(默认为dev分支):
 ```
 # git clone http://git.oschina.net/StruggleYang/ngGisDemo
+or
+# git clone https://github.com/StruggleYang/ngGisDemo.git
 ```
 npm包下载
 ```
@@ -24,6 +26,9 @@ npm包下载
 # ng serve -o
 ```
 通常预览在 http://localhost:4200/
+## js原生代码示例  
+
+js分支为Arcgis for javascript的原生js示例代码  
 
 ## 鸣谢
 - [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2. 提供项目构建
