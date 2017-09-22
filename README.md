@@ -12,6 +12,8 @@
 获取源码(默认为dev分支):
 ```
 # git clone http://git.oschina.net/StruggleYang/ngGisDemo
+or
+# git clone https://github.com/StruggleYang/ngGisDemo.git
 ```
 npm包下载
 ```
