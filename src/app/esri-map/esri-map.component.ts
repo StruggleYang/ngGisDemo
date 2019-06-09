@@ -89,7 +89,7 @@ points: any = [ // 模拟的点数组数据用于描线
         });
         // 载入地图服务
         const myTiledMapServiceLayer = new ArcGISTiledMapServiceLayer (
-          'http://cache1.arcgisonline.cn/arcgis/rest/services/ChinaOnlineStreetColor/MapServer' );
+          'http://cache1.arcgisonline.cn/arcgis/rest/services/ChinaOnlineCommunity_Mobile/MapServer' );
         this.map.addLayer(myTiledMapServiceLayer);
 
         // dojo载入事件添加
